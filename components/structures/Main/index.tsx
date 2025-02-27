@@ -27,7 +27,7 @@ export default function Main() {
                             { title: "Peixes", image: "/placeholder.svg?height=200&width=200" },
                             { title: "Outros Pets", image: "/placeholder.svg?height=200&width=200" },
                         ].map((category) => (
-                            <Card key={category.title} className="overflow-hidden">
+                            <Card key={category.title} className="overflow-hidden transition duration-700 hover:drop-shadow-xl ">
                                 <CardContent className="p-0">
                                     <Image
                                         src={category.image || "/placeholder.svg"}
