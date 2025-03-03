@@ -8,8 +8,8 @@ export default function Home() {
       <Header/>
       <Main/>
       <section className="flex justify-center items-start h-64 bg-cyan-500">
-        <form action="#" className="flex items-center justify-start flex-col gap-5">
-          <h2>Acompanhe novas ofertas e promoções</h2>
+        <form action="#" className="flex items-center justify-start flex-col gap-5" netlify>
+          <p>Acompanhe novas ofertas e promoções</p>
           <input type="email" name="email" id="email" placeholder="exemple@exemple.com"/>
         </form>
       </section>
